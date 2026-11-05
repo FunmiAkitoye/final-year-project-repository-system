@@ -1879,8 +1879,8 @@ function Login({ onLogin, showToast }) {
       <div className="login-card">
         <div className="login-logo-area">
           <img
-            src="/baze-logo.png"
-            alt="Baze University"
+            src={`${import.meta.env.BASE_URL}baze-logo.png`}
+            alt="Baze Logo"
             className="login-logo"
           />
         </div>
@@ -2059,8 +2059,8 @@ function StudentLayout({
     <div className="app-shell">
       <aside className="sidebar">
         <div className="sidebar-brand">
-          <img
-            src="/baze.jpeg"
+                    <img
+            src={`${import.meta.env.BASE_URL}baze.jpeg`}
             alt="Baze University"
           />
 
@@ -3877,10 +3877,10 @@ function SupervisorLayout({
     <div className="app-shell">
       <aside className="sidebar">
         <div className="sidebar-brand">
-          <img
-            src="/baze.jpeg"
-            alt="Baze University"
-          />
+            <img
+      src={`${import.meta.env.BASE_URL}baze.jpeg`}
+      alt="Baze University"
+    />
 
           <div>
             <strong>
